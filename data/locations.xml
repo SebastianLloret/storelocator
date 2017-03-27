@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <markers>
+	<marker name="Chipotle Minneapolis" lat="44.947464" lng="-93.320826" category="Restaurant" address="3040 Excelsior Blvd" address2="" city="Minneapolis" state="MN" postal="55416" country="US" phone="612-922-6662" email="info@chipotle.com" web="http://www.chipotle.com" hours1="Mon-Sun 11am-10pm" hours2="" hours3="" featured="" features="" />
 	<marker name="3 Wishes Cards and Gifts" lat="37.770563" lng="-122.264779" address="1428 Park Street" city="Alameda" state="CA" postal="94501" country="USA" phone="(510) 523-4438" web=""/>
 	<marker name="336 Exchange" lat="35.174351" lng="-82.753971" address="336 N. Caldwell St." city="Brevard" state="NC" postal="28712" country="USA" phone="(828) 883-4645" web=""/>
 	<marker name="50% Off Card Shop" lat="47.691736" lng="-116.654109" address="101 Best Avenue Suite B4" city="Coeur D Alene" state="ID" postal="83814" country="USA" phone="(509) 483-4221" web=""/>
