@@ -56,6 +56,7 @@
       <script>
         $(function() {
 					$('#bh-sl-map-container').storeLocator({
+            'maxDistance': true,
 						'mapSettings' : {
 							zoom : 12,
 							mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -63,8 +64,8 @@
 							scrollwheel: true,
 							navigationControl: true,
 							draggable: true
-						}
-					}{'maxDistance': true});
+						},
+					});
         });
       </script>
 
