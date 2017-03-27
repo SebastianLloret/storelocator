@@ -25,7 +25,6 @@
 *.log
 *.sql
 *.sqlite
-*.xml
 *.xls
 
 # OS generated files #
