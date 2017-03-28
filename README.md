@@ -1,6 +1,9 @@
 # elope, Inc. Store Locator
 Finds nearest store carrying elope product.
 
+## Maintenance
+Moving forward, track changes in Google Fusion Table. Address fields are formatted as `<Address 1> <Address 2> <Address 3>, <City>, <State>, <Zip>`. Select the map tab to have Google automatically geocode the new addresses, and then copy any changed marker fields into locations.xml in /data. 
+
 ## Excel Format
 |           Store          |                      Address                      |      City     | State |  Zip  | Country |      Phone     | Website |
 |:------------------------:|:-------------------------------------------------:|:-------------:|:-----:|:-----:|:-------:|:--------------:|:-------:|
