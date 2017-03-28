@@ -2,16 +2,7 @@
 Finds nearest store carrying elope product.
 
 ## Maintenance
-Moving forward, track changes in Google Fusion Table. Address fields are formatted as `<Address 1> <Address 2> <Address 3>, <City>, <State>, <Zip>`. Select the map tab to have Google automatically geocode the new addresses, and then copy any changed marker fields into locations.xml in /data. 
+`python scrape.py` will write all the lat/long coordinates in addresses.txt to geo.txt. From there, put the lat/long coordinates in excel sheet and separate by commas. Excel sheet will automatically generate the code needed in the *Marker* tab. Copy and paste the markers into locations.xml in /data.
 
-## Excel Format
-|           Store          |                      Address                      |      City     | State |  Zip  | Country |      Phone     | Website |
-|:------------------------:|:-------------------------------------------------:|:-------------:|:-----:|:-----:|:-------:|:--------------:|:-------:|
-| 3 Wishes Cards and Gifts | 1428 Park Street, Alameda, CA 94501               | Alameda       | CA    | 94501 | USA     | (510) 523-4438 |         |
-| 336 Exchange             | 336 N. Caldwell St., Brevard, NC 28712            | Brevard       | NC    | 28712 | USA     | (828) 883-4645 |         |
-| 50% Off Card Shop        | 101 Best Avenue Suite B4, Coeur D Alene, ID 83814 | Coeur D Alene | ID    | 83814 | USA     | (509) 483-4221 |         |
-
-## Marker Format
-```
-<marker name="A Costume Ball" lat="33.982269" lng="-84.48803" address="Olde Mill Shopping Center 3101 Roswell Rd Suite H" city="Marietta" state="GA" postal="30062" country="USA" phone="770-565-5558" web="www.costumeball.com"/>
-```
+## Notes
+Address is really important, make sure that you can find it on Google Maps to prevent errors. UNKNOWN_ERROR pops up with very large datasets (30+), it's just a result of too many requests to the API at once. Re-running the code will fix it.
