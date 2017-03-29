@@ -12,7 +12,6 @@ for element in tqdm(lines):
     resp_json_payload = response.json()
 
     if(resp_json_payload['status'] == 'OK'):
-        #print(str(resp_json_payload['results'][0]['geometry']['location']['lat']) + "," + str(resp_json_payload['results'][0]['geometry']['location']['lng']))
         tx.write(str(resp_json_payload['results'][0]['geometry']['location']['lat']) + "," + str(resp_json_payload['results'][0]['geometry']['location']['lng']) + "\n")
 
     else:
