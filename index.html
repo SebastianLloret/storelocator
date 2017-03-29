@@ -14,8 +14,8 @@
 		<div class="bh-sl-container container-fluid">
 			<div class="jumbotron">
 				<div class="container">
-					<h1 class="bh-sl-title">elope, Inc. Store Locator (BETA)</h1>
-					<p>Lists nearby stores carrying elope product.</p>
+					<h1 class="bh-sl-title">Find elope at a store near you!</h1>
+					<p>Search below by location. </p>
 
 					<div class="bh-sl-form-container">
 						<form id="bh-sl-user-location" class="form-inline" method="post" action="#" role="form">
@@ -56,13 +56,12 @@
 		  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="assets/js/libs/handlebars.min.js"></script>
     <script src="assets/js/libs/markerclusterer.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyBOT9rcaQYpXCTMjf_VF2EbuGHesZxeyzs"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBOT9rcaQYpXCTMjf_VF2EbuGHesZxeyzs"></script>
     <script src="assets/js/plugins/storeLocator/jquery.storelocator.js"></script>
       <script>
         $(function() {
 					$('#bh-sl-map-container').storeLocator({
             'maxDistance': true,
-            'autoComplete': true,
             'autoGeocode': false,
             'storeLimit': -1,
 						'mapSettings' : {
