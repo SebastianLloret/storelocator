@@ -15,7 +15,7 @@ Data is by far the most important piece holding this ship together. It's importa
 ### Spreadsheet
 I used LibreOffice since I'm on a Linux machine, but Excel works identically. Here's a snippet from the current spreadsheet:
 
-| Website                  | Address1                 | Address2 | Address3 | Address                  | Latitude   | Longitude          | City          | State | Zip   | Country | Phone          | Website |
+| Name                     | Address1                 | Address2 | Address3 | Address                  | Latitude   | Longitude          | City          | State | Zip   | Country | Phone          | Website |
 |--------------------------|--------------------------|----------|----------|--------------------------|------------|--------------------|---------------|-------|-------|---------|----------------|---------|
 | 3 Wishes Cards and Gifts | 1428 Park Street         |          |          | 1428 Park Street         | 37.76484   | -122.242018        | Alameda       | CA    | 94501 | USA     | (510) 523-4438 |         |
 | 336 Exchange             | 336 N. Caldwell St.      |          |          | 336 N. Caldwell St.      | 35.2375973 | -82.73251739999999 | Brevard       | NC    | 28712 | USA     | (828) 883-4645 |         |
