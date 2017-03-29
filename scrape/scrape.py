@@ -2,7 +2,7 @@ import os
 import requests
 from tqdm import *
 
-with open('new.txt') as f:
+with open('addresses.txt') as f:
     lines = [line.rstrip('\n') for line in f]
 
 tx = open('geo.txt', 'w')
