@@ -34,9 +34,8 @@
                   </select>
 							</div>
 
-              <button id="geoSubmit" class="btn btn-primary">Find me</button>
 							<button id="bh-sl-submit" class="btn btn-primary" type="submit">Submit</button>
-
+              
 						</form>
 					</div>
 
@@ -61,10 +60,8 @@
         $(function() {
 					$('#bh-sl-map-container').storeLocator({
             'maxDistance': true,
-            'geocodeID': 'geoSubmit',
-            'fullMapStartBlank': 3,
+            'autoGeocode': true,
             'nameSearch': true,
-            'slideMap': false,
             'autoComplete': true,
 						'mapSettings' : {
 							zoom : 0,
