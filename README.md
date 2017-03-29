@@ -48,7 +48,7 @@ I actually automated this in the excel file, so if you update the fields and kee
 
 1. < should be replaced with `&lt;`
 2. & should be replaced with `&amp;`
-3. > should be replaced with `&gt;`
+3. &gt; should be replaced with `&gt;`
 4. " should be replaced with `&quot;`
 5. ' should be replaced with `&apos;`
 
