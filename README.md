@@ -15,7 +15,7 @@ I used LibreOffice since I'm on a Linux machine, but Excel works identically. He
 | 336 Exchange             | 336 N. Caldwell St.      |          |          | 336 N. Caldwell St.      | 35.2375973 | -82.73251739999999 | Brevard       | NC    | 28712 | USA     | (828) 883-4645 |         |
 | 50% Off Card Shop        | 101 Best Avenue Suite B4 |          |          | 101 Best Avenue Suite B4 | 47.7015906 | -116.7838528       | Coeur D Alene | ID    | 83814 | USA     | (509) 483-4221 |         |
 
-For now, just look at the addresses. Since originally the addresses were given to me in separate columns, I concatenated them. Moving forward, it would be much easier to just write the address in one column, but that's only a suggestion.
+For now, just look at the addresses. Since the addresses were originally given to me in separate columns, I concatenated them. Moving forward, it would be much easier to write the address in one column, but that's only a suggestion.
 
 **Given the time constraints I was under, I didn't have time to look through all the addresses, but some of them would definitely benefit from updating, as I ran into stores that are no longer in business.**
 
@@ -39,9 +39,13 @@ To use it:
 **Note:** If the terminal outputs ZERO_RESULTS, the address is invalid and Google couldn't find anything for it. If instead it outputs UNKNOWN_ERROR, it means the API is handling too many requests. I've only seen that happen when trying to process 30+ addresses at the same time, but regardless just re-running the script fixes it every time.
 
 ### Markers
-So at this point we have addresses in an excel, we've gotten their coordinates, and we now need to update the map. Almost done! The last piece of the puzzle is getting the markers, which follow the format: `<marker name="3 Wishes Cards and Gifts" lat="37.76484" lng="-122.242018" address="1428 Park Street" city="Alameda" state="CA" postal="94501" country="USA" phone="(510) 523-4438" web="" />`.
+So at this point we have addresses in an excel, we've gotten their coordinates, and we now need to update the map. Almost done! The last piece of the puzzle is getting the markers, which follow the format:
 
-I actually automated this in the excel file, so if you update the fields and keep it in the same format it will automatically generate markers for you. Just drag the formula in the N column over any new rows in the spreadsheet. Once you've got the marker text in the N column, just copy and paste it into data/locations.xml.
+```html
+<marker name="3 Wishes Cards and Gifts" lat="37.76484" lng="-122.242018" address="1428 Park Street" city="Alameda" state="CA" postal="94501" country="USA" phone="(510) 523-4438" web="" />
+```
+
+I automated this in the excel file, so if you update the fields and keep it in the same format it will generate the markers for you. Just drag the formula in the N column over any new rows in the spreadsheet. Once you've got the marker text in the N column, copy and paste it into data/locations.xml.
 
 ### Syntax
 **Note:** It's VERY important that you replace certain characters in the marker code, as XML is very picky about syntax. I've compiled the list of illegal characters below, and what they need to be replaced with in order to work.
