@@ -27,7 +27,12 @@
 								<label for="bh-sl-address">Enter Address or Zip Code:</label>
 								<input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" />
 
-
+                <select class="form-control" id="bh-sl-maxdistance" name="bh-sl-maxdistance">
+                  <option value="15">15 Miles</option>
+                  <option value="25">25 Miles</option>
+                  <option value="40">40 Miles</option>
+                  <option value="50">50 Miles</option>
+                </select>
 
 							</div>
 
@@ -58,7 +63,7 @@
       <script>
         $(function() {
 					$('#bh-sl-map-container').storeLocator({
-            'maxDistance': false,
+            'maxDistance': true,
             'nameSearch': true,
             'autoComplete': true,
             'autoGeocode': true,
