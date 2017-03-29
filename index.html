@@ -20,22 +20,18 @@
 					<div class="bh-sl-form-container">
 						<form id="bh-sl-user-location" class="form-inline" method="post" action="#" role="form">
 							<div class="form-input form-group">
-                <div>
-                  <label for="bh-sl-search">Location name search:</label>
-				              <input type="text" id="bh-sl-search" name="bh-sl-search" />
-                </div>
+                <label for="bh-sl-search">Location name search:</label>
+			              <input type="text" id="bh-sl-search" name="bh-sl-search" />
 
-                </div>
-    								<label for="bh-sl-address">Enter Address or Zip Code:</label>
-    								<input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" />
+    							<label for="bh-sl-address">Enter Address or Zip Code:</label>
+    							<input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" />
 
-                    <select class="form-control" id="bh-sl-maxdistance" name="bh-sl-maxdistance">
-                      <option value="10">10 Miles</option>
-                      <option value="20">20 Miles</option>
-                      <option value="30">30 Miles</option>
-                      <option value="40">40 Miles</option>
-                    </select>
-                </div>
+                  <select class="form-control" id="bh-sl-maxdistance" name="bh-sl-maxdistance">
+                    <option value="10">10 Miles</option>
+                    <option value="20">20 Miles</option>
+                    <option value="30">30 Miles</option>
+                    <option value="40">40 Miles</option>
+                  </select>
 							</div>
 
               <button id="geoSubmit" class="btn btn-primary">Find me</button>
@@ -66,7 +62,7 @@
 					$('#bh-sl-map-container').storeLocator({
             'maxDistance': true,
             'geocodeID': 'geoSubmit',
-            'fullMapStartBlank': 0,
+            'fullMapStartBlank': 3,
             'nameSearch': true,
             'slideMap': false,
             'autoComplete': true,
