@@ -46,18 +46,26 @@ I actually automated this in the excel file, so if you update the fields and kee
 **Note:** It's VERY important that you replace any "&" characters in locations.xml with "&amp;" (no quotes). It's also VERY important that if the store has double quote marks in the name or address that you replace those with "&quot;" (no quotes).
 
 **For Example:**
-**Quotation Marks**
+_Quotation Marks:_
+
+```html
+<marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite "A"" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
+```
+
+becomes
+
+```html
 > <marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite
-> **"A"**" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
+> &quot;A&quot;" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
+```
+_Ampersands:_
 
-Should become
+```html
+> <marker name="A & H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
+```
 
-> <marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite
-> **&quot;A&quot;**" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
+becomes
 
-**Ampersand**
-> <marker name="A **&** H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
-
-Should become
-
-> <marker name="A **&amp;** H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
+```html
+> <marker name="A &amp; H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
+```
