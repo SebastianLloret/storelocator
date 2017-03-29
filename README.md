@@ -55,17 +55,16 @@ _Quotation Marks:_
 becomes
 
 ```html
-> <marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite
-> &quot;A&quot;" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
+<marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite &quot;A&quot;" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
 ```
 _Ampersands:_
 
 ```html
-> <marker name="A & H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
+<marker name="A & H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
 ```
 
 becomes
 
 ```html
-> <marker name="A &amp; H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
+<marker name="A &amp; H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
 ```
