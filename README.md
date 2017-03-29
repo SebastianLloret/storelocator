@@ -4,15 +4,15 @@
 Maps stores carrying elope product. Uses the [jQuery-Store-Locator-Plugin](https://github.com/bjorn2404/jQuery-Store-Locator-Plugin) by [bjorn2404](https://github.com/bjorn2404).
 
 * [Data](#data)
-  * [Excel/LibreOffice](#excel/libreoffice)
-  * [Lat/Longitude](#lat/longitude)
+  * [Spreadsheet](#spreadsheet)
+  * [Coordinates](#coordinates)
   * [Markers](#markers)
   * [Syntax](#syntax)
 
 ## Data
 Data is by far the most important piece holding this ship together. It's important that addresses are formatted in such a way that Google's API can geocode them, and it's also necessary that we format marker codes in such a way that the map knows _how_ to display them.
 
-### Excel/LibreOffice
+### Spreadsheet
 I used LibreOffice since I'm on a Linux machine, but Excel works identically. Here's a snippet from the current spreadsheet:
 
 | Website                  | Address1                 | Address2 | Address3 | Address                  | Latitude   | Longitude          | City          | State | Zip   | Country | Phone          | Website |
@@ -30,7 +30,7 @@ Addresses would, ideally, follow the format:
 <building (shopping mall, airport, w/e)>, <street address>, <city>, <state> <zip> <country>
 ```
 
-### Lat/Longitude
+### Coordinates
 Looking back at that excel table, Latitude and Longitude weren't originally included in the spreadsheet. I wrote a python scraper using Google's Geocoding API, which takes addresses in addresses.txt and puts their coordinates into geo.txt.
 
 ![alt text](https://github.com/SebastianLloret/storelocator/blob/master/maintenance/img/1.png "Scraper.py in action")
