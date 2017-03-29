@@ -43,27 +43,23 @@ So at this point we have addresses in an excel, we've gotten their coordinates, 
 
 I actually automated this in the excel file, so if you update the fields and keep it in the same format it will automatically generate markers for you. Just drag the formula in the N column over any new rows in the spreadsheet. Once you've got the marker text in the N column, just copy and paste it into data/locations.xml.
 
-**Note:** It's VERY important that you replace any "&" characters in locations.xml with "&amp;" (no quotes). It's also VERY important that if the store has double quote marks in the name or address that you replace those with "&quot;" (no quotes).
+### Syntax
+**Note:** It's VERY important that you replace certain characters in the marker code, as XML is very picky about syntax. I've compiled the list of illegal characters below, and what they need to be replaced with in order to work.
 
-**For Example:**
-_Quotation Marks:_
+1. < should be replaced with &lt;
+2. & should be replaced with &amp;
+3. > should be replaced with &gt;
+4. " should be replaced with &quot;
+5. ' should be replaced with &apos;
 
-```html
-<marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite "A"" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
-```
+**As long as the excel spreadsheet doesn't have any of the above characters in the cells, the markers will be generated properly**
 
-becomes
-
-```html
-<marker name="50% Off Card Shop" lat="47.65945139999999" lng="-117.1956584" address="212 N. Sullivan Suite &quot;A&quot;" city="Veradale" state="WA" postal="99037-9510" country="USA" phone="(509) 483-4221" web="" />
-```
-_Ampersands:_
-
+Here's an example of illegal xml syntax:
 ```html
 <marker name="A & H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
 ```
 
-becomes
+and here's that same marker, in correct xml format:
 
 ```html
 <marker name="A &amp; H Rentals" lat="33.9152184" lng="-117.4622948" address="10241 Hole Avenue" city="Riverside" state="CA" postal="92503" country="USA" phone="(951) 689-0707" web="" />
