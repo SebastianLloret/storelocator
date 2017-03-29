@@ -21,7 +21,7 @@ I used LibreOffice since I'm on a Linux machine, but Excel works identically. He
 | 336 Exchange             | 336 N. Caldwell St.      |          |          | 336 N. Caldwell St.      | 35.2375973 | -82.73251739999999 | Brevard       | NC    | 28712 | USA     | (828) 883-4645 |         |
 | 50% Off Card Shop        | 101 Best Avenue Suite B4 |          |          | 101 Best Avenue Suite B4 | 47.7015906 | -116.7838528       | Coeur D Alene | ID    | 83814 | USA     | (509) 483-4221 |         |
 
-For now, just look at the addresses. Since the addresses were originally given to me in separate columns, I concatenated them. Moving forward, it would be much easier to write the address in one column, but that's only a suggestion.
+For now, let's focus on the addresses. Since they were originally given to me in separate columns, I concatenated them into one full address. Moving forward, it would be much easier to write the address in one column, but that's only a suggestion.
 
 **Given the time constraints I was under, I didn't have time to look through all the addresses, but some of them would definitely benefit from updating, as I ran into stores that are no longer in business.**
 
