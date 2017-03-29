@@ -20,17 +20,25 @@
 					<div class="bh-sl-form-container">
 						<form id="bh-sl-user-location" class="form-inline" method="post" action="#" role="form">
 							<div class="form-input form-group">
+
+                <label for="bh-sl-search">Location name search:</label>
+				        <input type="text" id="bh-sl-search" name="bh-sl-search" />
+
 								<label for="bh-sl-address">Enter Address or Zip Code:</label>
 								<input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" />
+
                 <select class="form-control" id="bh-sl-maxdistance" name="bh-sl-maxdistance">
                   <option value="10">10 Miles</option>
                   <option value="20">20 Miles</option>
                   <option value="30">30 Miles</option>
                   <option value="40">40 Miles</option>
                 </select>
+
 							</div>
+
               <button id="geoSubmit" class="btn btn-primary">Find me</button>
 							<button id="bh-sl-submit" class="btn btn-primary" type="submit">Submit</button>
+
 						</form>
 					</div>
 				</div>
@@ -58,8 +66,8 @@
 					$('#bh-sl-map-container').storeLocator({
             'maxDistance': true,
             'geocodeID': 'geoSubmit',
-            'fullMapStart': true,
-            'fullMapStartListLimit': 2000,
+            'fullMapStartBlank': 0,
+            'nameSearch': true,
             'slideMap': false,
             'autoComplete': true,
 						'mapSettings' : {
