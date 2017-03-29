@@ -105,13 +105,14 @@
 .bh-sl-container .bh-sl-loc-list .list-label {
   float: left;
   margin: 10px 0 0 6px;
-  padding: 4px;
-  width: 27px;
+  padding-top: 8px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   background: #00192d;
   color: #ffffff;
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 100%;
 }
 .bh-sl-container .bh-sl-loc-list .list-details {
   float: left;
