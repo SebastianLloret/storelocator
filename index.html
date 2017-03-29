@@ -56,7 +56,7 @@
 		  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="assets/js/libs/handlebars.min.js"></script>
     <script src="assets/js/libs/markerclusterer.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBOT9rcaQYpXCTMjf_VF2EbuGHesZxeyzs"></script>
+    <script src="https://maps.google.com/maps/api/js?libraries=places&region=US&key=AIzaSyBOT9rcaQYpXCTMjf_VF2EbuGHesZxeyzs"></script>
     <script src="assets/js/plugins/storeLocator/jquery.storelocator.js"></script>
       <script>
         $(function() {
@@ -64,6 +64,7 @@
             'maxDistance': true,
             'autoGeocode': false,
             'storeLimit': -1,
+            'autoComplete': true,
 						'mapSettings' : {
 							zoom : 0,
 							mapTypeId: google.maps.MapTypeId.ROADMAP,
