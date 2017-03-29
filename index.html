@@ -21,9 +21,6 @@
 						<form id="bh-sl-user-location" class="form-inline" method="post" action="#" role="form">
 							<div class="form-input form-group">
 
-                <label for="bh-sl-search">Location name search:</label>
-				        <input class="form-control" type="text" id="bh-sl-search" name="bh-sl-search" />
-
 								<label for="bh-sl-address">Enter Address or Zip Code:</label>
 								<input class="form-control" type="text" id="bh-sl-address" name="bh-sl-address" />
 
@@ -65,7 +62,6 @@
         $(function() {
 					$('#bh-sl-map-container').storeLocator({
             'maxDistance': true,
-            'nameSearch': true,
             'autoComplete': true,
             'autoGeocode': true,
             'storeLimit': -1,
