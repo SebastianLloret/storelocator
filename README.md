@@ -3,6 +3,12 @@
 
 Maps stores carrying elope product. Uses the [jQuery-Store-Locator-Plugin](https://github.com/bjorn2404/jQuery-Store-Locator-Plugin) by [bjorn2404](https://github.com/bjorn2404).
 
+[Data](#data)
+  [Excel/LibreOffice](#excel/libreoffice)
+  [Lat/Longitude](#lat/longitude)
+  [Markers](#markers)
+  [Syntax](#syntax)
+
 ## Data
 Data is by far the most important piece holding this ship together. It's important that addresses are formatted in such a way that Google's API can geocode them, and it's also necessary that we format marker codes in such a way that the map knows _how_ to display them.
 
