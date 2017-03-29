@@ -46,13 +46,13 @@ I actually automated this in the excel file, so if you update the fields and kee
 ### Syntax
 **Note:** It's VERY important that you replace certain characters in the marker code, as XML is very picky about syntax. I've compiled the list of illegal characters below, and what they need to be replaced with in order to work.
 
-1. < should be replaced with &lt;
-2. & should be replaced with &amp;
-3. > should be replaced with &gt;
-4. " should be replaced with &quot;
-5. ' should be replaced with &apos;
+1. < should be replaced with `&lt;`
+2. & should be replaced with `&amp;`
+3. > should be replaced with `&gt;`
+4. " should be replaced with `&quot;`
+5. ' should be replaced with `&apos;`
 
-**As long as the excel spreadsheet doesn't have any of the above characters in the cells, the markers will be generated properly**
+**As long as the excel spreadsheet doesn't have any of the above characters in the cells (or properly replaces them), the markers will be generated properly**
 
 Here's an example of illegal xml syntax:
 ```html
