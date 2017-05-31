@@ -10,7 +10,7 @@ tx = open('geo.txt', 'w')
 
 for element in tqdm(lines):
     time.sleep(0.5)
-    response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address=' + element)
+    response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?components=country:US&address=' + element)
     resp_json_payload = response.json()
 
     if(resp_json_payload['status'] == 'OK'):
