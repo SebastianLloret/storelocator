@@ -1,5 +1,6 @@
 import os
 import requests
+import time
 from tqdm import *
 
 with open('addresses.txt') as f:
@@ -8,6 +9,7 @@ with open('addresses.txt') as f:
 tx = open('geo.txt', 'w')
 
 for element in tqdm(lines):
+    time.sleep(0.5)
     response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address=' + element)
     resp_json_payload = response.json()
 
@@ -16,4 +18,4 @@ for element in tqdm(lines):
 
     else:
         print(resp_json_payload['status'])
-        tx.write("Error, see console log.\n")
+        tx.write(element + " error:" + resp_json_payload['status'] + "\n")
