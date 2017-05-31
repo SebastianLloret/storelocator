@@ -584,7 +584,7 @@
 	<marker name="ITZAPARTY  ! SRG Ent" lat="42.2035515" lng="-70.954079" address="120 Main Street" city="Weymouth" state="MA" postal="02188" country="US" phone="(781) 340-6262" web="www.itzapartystores.com" />
 	<marker name="ITZAPARTY  ! SRG Ent" lat="42.2983059" lng="-71.3927776" address="1400 Worchester Street" city="Natick" state="MA" postal="01760" country="US" phone="(508) 626-9990" web="www.itzapartystores.com" />
 	<marker name="J Miller Flowers" lat="37.8304012" lng="-122.246807" address="4416 Piedmont Avenue" city="Oakland" state="CA" postal="94611" country="US" phone="(510) 658-0613" web="www.jmillerflowers.com" />
-	<marker name="J&amp;J Party" lat="50.927054" lng="11.5892372" address="68 Route 101A" city="Amherst" state="NH" postal="03031" country="US" phone="(603) 672-8555" web="www.jandjpartyandjanitorial.com" />
+	<marker name="J&amp;J Party" lat="42.811443" lng="-71.5888076" address="68 Route 101A" city="Amherst" state="NH" postal="03031" country="US" phone="(603) 672-8555" web="www.jandjpartyandjanitorial.com" />
 	<marker name="J.M. Princewell" lat="42.835966" lng="-71.64993" address="127 Union Square" city="Milford" state="NH" postal="03055" country="US" phone="(603) 673-0611" web="www.jmprincewell.com" />
 	<marker name="Jazams" lat="40.3480815" lng="-75.0336169999999" address="Peddlers Village" city="Lahaska" state="PA" postal="18931" country="US" phone="(267) 544-5641" web="www.jazams.com" />
 	<marker name="Jeanie&apos;s Party &amp; Costume" lat="32.7034329" lng="-114.5973566" address="1335 South Pacific Avenue" city="Yuma" state="AZ" postal="85365" country="US" phone="(928) 782-2211" web="www.jeaniesparty-costumes.com" />
@@ -657,7 +657,7 @@
 	<marker name="LTM Party" lat="27.004366" lng="-82.13077" address="1931 Tamiami Trail" city="Port Charlotte" state="FL" postal="33948" country="US" phone="(941) 625-3700" web="www.ltmparty.com" />
 	<marker name="Lucinda&apos;s" lat="37.6907471" lng="-97.3297650999999" address="329 N. Mead" city="Wichita" state="KS" postal="67202" country="US" phone="(316) 264-1080" web="www.lucindasoldtown.com" />
 	<marker name="Lucy In Disguise With Diamonds" lat="30.248712" lng="-97.7503469999999" address="1506 South Congress Avenue" city="Austin" state="TX" postal="78704" country="US" phone="(512) 444-2002" web="www.lucyindisguise.com" />
-	<marker name="M&amp;M Party Rentals" lat="40.4162883" lng="-3.7033725" address="1010 Freedom Blvd" city="Watsonville" state="CA" postal="95076" country="US" phone="(831) 728-8405" web="www.mmpartyrentals.com" />
+	<marker name="M&amp;M Party Rentals" lat="36.9208114" lng="-121.7605958" address="1010 Freedom Blvd" city="Watsonville" state="CA" postal="95076" country="US" phone="(831) 728-8405" web="www.mmpartyrentals.com" />
 	<marker name="Ma Valise" lat="44.9403345" lng="-123.0391509" address="379 State Street" city="Salem" state="OR" postal="97301" country="US" phone="(503) 371-2234" web="" />
 	<marker name="Mad Margaret&apos;s" lat="39.0746715999999" lng="-108.5712121" address="807 N 1st Street" city="Grand Junction" state="CO" postal="81501" country="US" phone="(970) 712-1515" web="www.madmargarets.com" />
 	<marker name="Magic &amp; Fun Costume Shop" lat="47.6084816" lng="-122.3409729" address="1787 W Tennessee Street" city="Tallahassee" state="FL" postal="32304" country="US" phone="(850) 224-6244" web="www.magicandfuncostumeshop.com" />
@@ -730,7 +730,7 @@
 	<marker name="Parties, Etc." lat="34.584335" lng="-92.569168" address="2124 Military Road, Suite C" city="Benton" state="AR" postal="72015" country="US" phone="(501) 776-1918" web="www.partiesetc.net" />
 	<marker name="Partners Village Store" lat="41.576809" lng="-71.0909812" address="865 Main Road" city="Westport" state="MA" postal="02790" country="US" phone="(508) 636-2572" web="www.partnersvillagestore.com" />
 	<marker name="Partridge in a Bear Tree" lat="42.8115113" lng="-70.8693169" address="82 Wharf St" city="Salem" state="MA" postal="01970" country="US" phone="" web="" />
-	<marker name="Party &amp; Novelty Store" lat="49.214261" lng="3.607551" address="2411 Smithville Hwy" city="Mc Minnville" state="TN" postal="37110-6571" country="US" phone="(931) 473-3050" web="" />
+	<marker name="Party &amp; Novelty Store" lat="35.71472560000001" lng="-85.7840179" address="2411 Smithville Hwy" city="Mc Minnville" state="TN" postal="37110-6571" country="US" phone="(931) 473-3050" web="" />
 	<marker name="Party America # 226 Reno" lat="45.7507494" lng="-108.613365" address="5925 South Virginia Street" city="Reno" state="NV" postal="89502" country="US" phone="(775) 825-0825" web="partyamericareno.com" />
 	<marker name="Party America #173 Lawrence KS" lat="45.7507494" lng="-108.613365" address="1441 West 23rd Street" city="Lawrence" state="KS" postal="66046" country="US" phone="(785) 865-3803" web="" />
 	<marker name="Party America #175 Topeka" lat="45.7507494" lng="-108.613365" address="2010 SW Westport Dr. Suite 200" city="Topeka" state="KS" postal="66604" country="US" phone="(785) 273-9131" web="PARTYAMERICATOPEKA.COM" />
@@ -1008,7 +1008,7 @@
 	<marker name="Sippees" lat="39.5156002" lng="-119.8083864" address="955 South Virginia Street" city="Reno" state="NV" postal="89502" country="US" phone="(775) 329-2110" web="www.sippees.com" />
 	<marker name="Six Degrees of Celebration" lat="41.75191" lng="-124.197988" address="1072 3rd St" city="Crescent City" state="CA" postal="95531" country="US" phone="" web="www.sixdegreesofcelebration.com" />
 	<marker name="Six Degrees of Celebration" lat="41.75191" lng="-124.197988" address="909 3rd St" city="Crescent City" state="CA" postal="95531" country="US" phone="" web="www.sixdegreesofcelebration.com" />
-	<marker name="Ski &amp; Bow Rack" lat="59.7196318" lng="10.8358795" address="354 East Pagosa Street" city="Pagosa Springs" state="CO" postal="81147" country="US" phone="(970) 264-2370" web="www.skiandbowrack.com" />
+	<marker name="Ski &amp; Bow Rack" lat="37.269774" lng="-106.998497" address="354 East Pagosa Street" city="Pagosa Springs" state="CO" postal="81147" country="US" phone="(970) 264-2370" web="www.skiandbowrack.com" />
 	<marker name="Small Change" lat="42.1968669" lng="-122.7156839" address="5 North Main" city="Ashland" state="OR" postal="97520" country="US" phone="(541) 488-1000" web="" />
 	<marker name="Smart Toys and Books" lat="35.9054637" lng="-84.1086399" address="9700 Kingston Pike, Suite 12" city="Knoxville" state="TN" postal="37922" country="US" phone="(865) 691-1154" web="www.smarttoysandbooks.com" />
 	<marker name="Snapdragons Floral and Gifts" lat="46.3200077" lng="-117.9805629" address="207 East Main Street" city="Dayton" state="WA" postal="99328" country="US" phone="(509) 382-2565" web="" />
