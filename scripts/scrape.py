@@ -47,7 +47,11 @@ def process(sheet):
         phonelst.append(sheet.cell(row, 12).value)
         weblst.append(sheet.cell(row, 14).value)
 
-        region = sheet.cell(row, 9).value
+        if(sheet.cell(row, 7).value == 'GU'):
+            region = 'GU'
+
+        else:
+            region = sheet.cell(row, 9).value
 
         response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?key=' + key + '&components=country:' + region + '&address=' + sheet.cell(row, 16).value)
 
