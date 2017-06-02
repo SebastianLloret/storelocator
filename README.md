@@ -10,10 +10,12 @@ Maps stores carrying elope product. Uses the [jQuery-Store-Locator-Plugin](https
   * [Markers](#markers)
 
 ## Quickstart
-Make sure to install the following dependencies:
-* requests
-* xlrd
-* tqdm
+Make sure to install dependencies:
+```
+python3 pip install requests
+python3 pip install xlrd
+python3 pip install tqdm
+```
 
 Run `python3 scrape.py` or double click on scrape.exe to update locations.xml with markers for each location in locations.xlsx.
 
