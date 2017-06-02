@@ -5,35 +5,52 @@ Maps stores carrying elope product. Uses the [jQuery-Store-Locator-Plugin](https
 
 * [Implementation](#Implementation)
   * [Quickstart](#quickstart)
+    * [Mac](#mac)
+    * [Windows](#windows)
+    * [Linux](#linux)
   * [Structure](#structure)
   * [Spreadsheet](#spreadsheet)
   * [Markers](#markers)
 
+# Implementation
+In short, this locator relies on a python script which reads in to an excel file, parses the data into a Google Maps API query, reads the json response to gather lat/lng coordinates, and then writes all of this information to a .xml file used by the jQuery Store Locator plugin to populate a map.
+
 ## Quickstart
 ### Mac
-If you're on a mac that hasn't run homebrew or this script before, copy the following commands into your terminal:
+1. Install Homebrew and Python 3.x.x
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install python3
+```
+2. Install dependencies
+```
 python3 pip install requests
 python3 pip install xlrd
 python3 pip install tqdm
+```
+3. Run the python script
+```
 python3 scrape.py
 ```
+4. Upload updated locations.xml to server
+
 ### Windows
-Run scrape.exe.
+1. Run scrape.exe.
+2. Upload updated locations.xml to server
 
 ### Linux
-Consult your distribution for instructions on how to install python3. Afterwards, enter the following commands:
+1. Install Python 3.x.x via your distribution's package manager.
+2. Install dependencies
 ```
 python3 pip install requests
 python3 pip install xlrd
 python3 pip install tqdm
+```
+3. Run the python script
+```
 python3 scrape.py
 ```
-
-## Implementation
-In short, this locator relies on a python script which reads in to an excel file, parses the data into a Google Maps API query, reads the json response to gather lat/lng coordinates, and then writes all of this information to a .xml file used by the jQuery Store Locator plugin to populate a map.
+4. Upload updated locations.xml to server
 
 ### Structure
 Both the python script and .exe file rely on the folder hierarchy staying more or less the same. They expect to find an excel sheet in the exact same format and with the same name as locations.xlsx in the data folder in order to run properly. They also expect template.xml in that location.
