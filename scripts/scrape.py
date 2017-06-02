@@ -114,7 +114,12 @@ def writeOut():
 
         for i in range(0, len(namelst)):
             if(latlst[i] != 0 and lnglst[i] != 0):
-                f.write('	' + '<marker name=\"' + namelst[i] + '\"' + ' lat=\"' + str(latlst[i]) + '\"' + ' lng=\"' + str(lnglst[i]) + '\"' + ' address=\"' + addresslst[i] + '\"' + ' city=\"' + citylst[i] + '\"' + ' state=\"' + statelst[i] + '\"' + ' postal=\"' + str(postallst[i]) + '\"' + ' country=\"' + countrylst[i] + '\"' + ' phone=\"' + str(phonelst[i]) + '\"' + ' web=\"' + weblst[i] + '\"' + ' />\n')
+                toWrite = '	' + '<marker name=\"' + namelst[i] + '\"' + ' lat=\"' + str(latlst[i]) + '\"' + ' lng=\"' + str(lnglst[i]) + '\"' + ' address=\"' + addresslst[i] + '\"' + ' city=\"' + citylst[i] + '\"' + ' state=\"' + statelst[i] + '\"' + ' postal=\"' + str(postallst[i]) + '\"' + ' country=\"' + countrylst[i] + '\"' + ' phone=\"' + str(phonelst[i]) + '\"' + ' web=\"' + weblst[i] + '\"' + ' />\n'
+
+                toWrite = toWrite.replace('&', '&amp;')
+                toWrite = toWrite.replace('\'', '&apos;')
+
+                f.write(toWrite)
 
         f.write('</markers>')
 
