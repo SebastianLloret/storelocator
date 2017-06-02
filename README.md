@@ -10,14 +10,27 @@ Maps stores carrying elope product. Uses the [jQuery-Store-Locator-Plugin](https
   * [Markers](#markers)
 
 ## Quickstart
-Make sure to install dependencies:
+### Mac
+If you're on a mac that hasn't run homebrew or this script before, copy the following commands into your terminal:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install python3
+python3 pip install requests
+python3 pip install xlrd
+python3 pip install tqdm
+python3 scrape.py
+```
+### Windows
+Run scrape.exe.
+
+### Linux
+Consult your distribution for instructions on how to install python3. Afterwards, enter the following commands:
 ```
 python3 pip install requests
 python3 pip install xlrd
 python3 pip install tqdm
+python3 scrape.py
 ```
-
-Run `python3 scrape.py` or double click on scrape.exe to update locations.xml with markers for each location in locations.xlsx.
 
 ## Implementation
 In short, this locator relies on a python script which reads in to an excel file, parses the data into a Google Maps API query, reads the json response to gather lat/lng coordinates, and then writes all of this information to a .xml file used by the jQuery Store Locator plugin to populate a map.
