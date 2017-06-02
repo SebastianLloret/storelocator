@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <markers>
-	<marker name="Underground Dungeon" lat="13.5072764" lng="144.8197194" address="1060 Route 16" city="Barrigada" state="GU" postal="96913.0" country="US" phone="(671) 632-7008" web="shop.hotguam.com/underground-dungeon" />
+
 	<marker name="1001 Bargains" lat="33.0232892" lng="-96.52020399999999" address="1776 N. Hwy 78" city="Wylie" state="TX" postal="75098" country="US" phone="(972) 365-3497" web="www.1001bargains.net" />
 	<marker name="25TH Street Treasures" lat="41.22074569999999" lng="-111.9786" address="105 25th Street" city="Ogden" state="UT" postal="84401" country="US" phone="(801) 814-4341" web="www.treasures.ogden25th.com/" />
 	<marker name="3 Monkeys" lat="45.5286394" lng="-122.6987349" address="811 NW 23rd Avenue" city="Portland" state="OR" postal="97210" country="US" phone="(503) 888-3539" web="" />
@@ -24,7 +24,7 @@
 	<marker name="ABC Toys" lat="32.6269466" lng="-85.4478316" address="1627 Opelika Road #64" city="Auburn" state="AL" postal="36830" country="US" phone="(334) 821-0904" web="www.myabctoys.com" />
 	<marker name="Abracadabra NYC" lat="40.740934" lng="-73.9918788" address="19 West 21st Street" city="New York" state="NY" postal="10010" country="US" phone="(212) 627-5194" web="www.abracadabraNYC.com" />
 	<marker name="AceHardware Guernville Fulton" lat="38.4533267" lng="-122.7709052" address="2551 Guerneville Road" city="Santa Rosa" state="CA" postal="95401" country="US" phone="(707) 525-8635" web="www.acesantarosa.com" />
-	<marker name="Acme Costumes" lat="32.0888244" lng="-81.17727" address="2604 Highway 80 West" city="Garden City" state="GA" postal="31408" country="US" phone="(912) 966-0201" web="www.acmecostumes.com" />
+	<marker name="Acme Costumes" lat="32.0888245" lng="-81.1772701" address="2604 Highway 80 West" city="Garden City" state="GA" postal="31408" country="US" phone="(912) 966-0201" web="www.acmecostumes.com" />
 	<marker name="Actors Attic" lat="39.1555905" lng="-75.49832169999999" address="540 Otis Drive" city="Dover" state="DE" postal="19901" country="US" phone="(302) 734-8214" web="www.actorsattic.com" />
 	<marker name="Adam Fox Cutlery" lat="36.5548177" lng="-121.921133" address="Ocean Avenue" city="Carmel" state="CA" postal="93921" country="US" phone="(831) 624-5244" web="" />
 	<marker name="Adele&apos;s" lat="34.101597" lng="-118.2992336" address="5034 Hollywood Blvd" city="Los Angeles" state="CA" postal="90027" country="US" phone="" web="www.adelescostumes.com" />
@@ -229,7 +229,6 @@
 	<marker name="Celebrate" lat="36.3798627" lng="-82.370815" address="3711 Bristol Hwy Bldg B" city="Johnson City" state="TN" postal="37601" country="US" phone="(423) 282-4142" web="www.celebratetn.net" />
 	<marker name="Celebrate the Season" lat="37.3009" lng="-89.575243" address="201 S. Mt. Auburn" city="Cape Girardeau" state="MO" postal="63703" country="US" phone="(573) 803-3145" web="www.celebratetheseason.com" />
 	<marker name="Celebrate the Season" lat="38.4951632" lng="-90.2985808" address="3276 Telegraph Road" city="Saint Louis" state="MO" postal="63125" country="US" phone="" web="www.celebratetheseason.com" />
-	<marker name="Celebration Station" lat="37.09024" lng="-95.712891" address=" Celebration Station" city="Ketchikan" state="AK" postal="99901" country="US" phone="" web="" />
 	<marker name="Celebrations" lat="35.5841606" lng="-82.5281689" address="265 Tunnel Rd." city="Asheville" state="NC" postal="28805" country="US" phone="(828) 255-5868" web="" />
 	<marker name="Central Party &amp; Costume" lat="36.0567756" lng="-89.3980689" address="203 W. 7th" city="Ellensburg" state="WA" postal="98926" country="US" phone="(509) 962-3934" web="www.partybarnrentals.com" />
 	<marker name="Champion Party Supply" lat="47.6315736" lng="-122.3754054" address="1461 Elliot Avenue West" city="Seattle" state="WA" postal="98119" country="US" phone="(206) 284-1980" web="www.championparty.com" />
@@ -275,14 +274,14 @@
 	<marker name="Colonial Gardens" lat="40.15679799999999" lng="-75.551752" address="745 Schulkill Rd" city="Phoenixville" state="PA" postal="19460" country="US" phone="610-948-9755" web="" />
 	<marker name="Columbia, The Costume Shop at" lat="41.9348906" lng="-74.0215405" address="66 North Front Street" city="Kingston" state="NY" postal="12401" country="US" phone="(845) 339-4996" web="www.columbiacostumes.com" />
 	<marker name="Concord Toy Shop" lat="42.4568788" lng="-71.357041" address="89 Thoreau Street" city="Concord" state="MA" postal="01742" country="US" phone="(978) 369-2553" web="www.concordtoys.com" />
-	<marker name="Confetti Party Stuff &amp; Gifts" lat="26.2502763" lng="-98.22131929999999" address="5208 N. 10th Street" city="Mcallen" state="TX" postal="78504" country="US" phone="(956) 971-9502" web="" />
+	<marker name="Confetti Party Stuff &amp; Gifts" lat="26.2504552" lng="-98.22201059999999" address="5208 N. 10th Street" city="Mcallen" state="TX" postal="78504" country="US" phone="(956) 971-9502" web="" />
 	<marker name="Confetti&apos;s Party Shop" lat="37.7632093" lng="-100.0332004" address="1705 N 14th" city="Dodge City" state="KS" postal="67801" country="US" phone="(620) 225-2041" web="" />
 	<marker name="Connecticut Stage" lat="41.6524795" lng="-72.8705634" address="459 East Street" city="Plainville" state="CT" postal="06062" country="US" phone="(860) 747-1232" web="www.ctstagesupply.com" />
 	<marker name="Cool Kat Party Supplies" lat="30.0409078" lng="-95.4868039" address="18532 Kuykendahl Rd" city="Spring" state="TX" postal="77379" country="US" phone="(281) 813-5802" web="www.coolkatpartysupplies.com" />
 	<marker name="Corner Copia" lat="30.6711497" lng="-81.4634837" address="210 Centre Street" city="Fernandina Beach" state="FL" postal="32034" country="US" phone="(904) 261-7575" web="" />
 	<marker name="Cosmo &amp; Nathalia Inc." lat="34.0306792" lng="-118.3851538" address="7367 Melrose Ave" city="Los Angeles" state="CA" postal="90046" country="US" phone="(323) 916-3808" web="" />
 	<marker name="Costumania" lat="43.630273" lng="-72.31858199999999" address="5 Airport Road #10" city="West Lebanon" state="NH" postal="03784" country="US" phone="(603) 298-9978" web="www.costumania.com" />
-	<marker name="Costume &amp; Dance" lat="32.0888244" lng="-81.17727" address="2201 South Interstate 35 East" city="Denton" state="TX" postal="76205" country="US" phone="(940) 387-4825" web="" />
+	<marker name="Costume &amp; Dance" lat="38.9404374" lng="-94.6106701" address="2201 South Interstate 35 East" city="Denton" state="TX" postal="76205" country="US" phone="(940) 387-4825" web="" />
 	<marker name="Costume Avenue" lat="45.4864331" lng="-122.8079918" address="12760 SW 1st St" city="Beaverton" state="OR" postal="97005" country="US" phone="(503) 848-3861" web="www.costumeavenue.com" />
 	<marker name="Costume Cabaret" lat="38.990437" lng="-76.54657569999999" address="2170  Annapolis Mall" city="Annapolis" state="MD" postal="21401" country="US" phone="(410) 266-0079" web="www.thecostumecabaret.com" />
 	<marker name="Costume Castle Inc" lat="39.2228723" lng="-84.281768" address="467 Wards Corner Rd. Suite A" city="Loveland" state="OH" postal="45140" country="US" phone="(513) 831-8121" web="www.costumecastle.com" />
@@ -773,7 +772,6 @@
 	<marker name="Party Fair/ Kendall Park" lat="40.42080079999999" lng="-74.5773292" address="3560 State Route 27" city="Kendall Park" state="NJ" postal="08824" country="US" phone="(732) 422-7300" web="www.partyfairofkp.com" />
 	<marker name="Party Fair/East Brunswick, NJ" lat="40.4565382" lng="-74.3984816" address="300 Route 18" city="East Brunswick" state="NJ" postal="08816" country="US" phone="(732) 238-0101" web="www.partyfair.com" />
 	<marker name="Party Fair/Freehold, NJ" lat="40.283893" lng="-74.292683" address="4345 US Hwy 9" city="Freehold" state="NJ" postal="07728" country="US" phone="732-780-1110" web="" />
-	<marker name="Party Fair/Howell, NJ" lat="40.1745036" lng="-74.2409551" address="2561 Route 9 North" city="Howell" state="NJ" postal="07731" country="US" phone="(732) 367-8889" web="" />
 	<marker name="Party Fair/Manahawkin, NJ" lat="39.6970295" lng="-74.2699062" address="297 Route 72" city="Manahawkin" state="NJ" postal="08050" country="US" phone="(609) 597-5111" web="" />
 	<marker name="Party Fair/Oakhurst NJ" lat="40.2636135" lng="-74.0434705" address="2000 Route 35 South" city="Oakhurst" state="NJ" postal="07755" country="US" phone="(732) 695-9100" web="partyfair.com" />
 	<marker name="Party Fair/Ramsey, NJ" lat="41.0680132" lng="-74.1387795" address="107 Interstate Shop Center" city="Ramsey" state="NJ" postal="07446" country="US" phone="(201) 512-3336" web="" />
@@ -930,11 +928,12 @@
 	<marker name="Quilts Unlimited" lat="38.0308554" lng="-78.4821438" address="2739 Main St." city="Charlottesville" state="VA" postal="22903" country="US" phone="" web="www.quiltsunlimited.com" />
 	<marker name="Quincy&apos;s Costumes" lat="41.0455978" lng="-80.6632437" address="5232 Market Street" city="Youngstown" state="OH" postal="44512" country="US" phone="(330) 782-4891" web="www.quincyscostumes.com" />
 	<marker name="Rainbow Party Rental" lat="40.5254236" lng="-81.47417159999999" address="318 East 4th Street" city="Dover" state="OH" postal="44622" country="US" phone="(330) 343-4975" web="www.rainbowpartyrentalsoh.com" />
-	<marker name="Rainbow Toys" lat="43.72298" lng="-70.234496" address="240 U.S. Route 1" city="Falmouth" state="ME" postal="04105" country="US" phone="(207) 781-4265" web="www.rainbowtoysme.com" />
+	<marker name="Rainbow Toys" lat="43.7229803" lng="-70.2344962" address="240 U.S. Route 1" city="Falmouth" state="ME" postal="04105" country="US" phone="(207) 781-4265" web="www.rainbowtoysme.com" />
 	<marker name="Rainbow&apos;s End" lat="35.197508" lng="-111.648633" address="12 E Route 66, Suite 101" city="Flagstaff" state="AZ" postal="86001" country="US" phone="(928) 774-5535" web="www.rainbowsendflagstaff.com" />
 	<marker name="Rainy Day Anime" lat="38.7977038" lng="-104.75895" address="2350 S. Academy Blvd" city="Colorado Springs" state="CO" postal="80916" country="US" phone="(719) 390-6655" web="www.rainydayanime.com" />
 	<marker name="Razorz Edge" lat="32.227106" lng="-110.965845" address="427 N. 4th Avenue" city="Tucson" state="AZ" postal="85705" country="US" phone="(520) 792-3343" web="www.razorzedge.com" />
 	<marker name="Razzle Dazzle MCCALL ID" lat="44.9125989" lng="-116.0959999" address="503 Pine Street" city="McCall" state="ID" postal="83638" country="US" phone="(208) 634-1997" web="www.razzledazzlemccall.com" />
+	<marker name="Razzleberries Gifts" lat="41.599069" lng="-90.3434619" address="227 N Cody Rd Hwy 67" city="Le Claire" state="IA" postal="52753" country="US" phone="" web="www.razzleberriesgifts.com" />
 	<marker name="Rebel Rags" lat="34.361888" lng="-89.562659" address="2302 West Jackson Avenue" city="Oxford" state="MS" postal="38655" country="US" phone="(662) 281-7327" web="www.rebelrags.net" />
 	<marker name="Red Garter" lat="36.625979" lng="-93.28123" address="3265 Falls Pkwy, Suite S" city="Branson" state="MO" postal="65616" country="US" phone="(417) 337-9542" web="" />
 	<marker name="Red Headed Witches" lat="26.6171157" lng="-81.9412706" address="1910 Del Prado Blvd S, Suite A" city="Cape Coral" state="FL" postal="33990" country="US" phone="(239) 573-6566" web="www.redheadedwitches.com" />
@@ -944,11 +943,11 @@
 	<marker name="Remember Me Costumes" lat="38.60722639999999" lng="-90.2073338" address="1021 Russell Blvd." city="Saint Louis" state="MO" postal="63104" country="US" phone="(314) 773-1930" web="www.vintage-clothes.com" />
 	<marker name="Remember Salem" lat="42.52218939999999" lng="-70.8908888" address="127 Essex Street" city="Salem" state="MA" postal="01970" country="US" phone="(978) 741-1170" web="www.salemsmagickshop.com" />
 	<marker name="Reminiscence" lat="40.7356929" lng="-73.99421339999999" address="74 5th Avenue" city="New York" state="NY" postal="10011" country="US" phone="(212) 243-2292" web="www.reminiscence.com" />
-	<marker name="Renaissance Rose" lat="42.197435" lng="-122.715875" address="37 North Main Street" city="Ashland" state="OR" postal="97520-2735" country="US" phone="(541) 488-0119" web="www.renrose.com" />
+	<marker name="Renaissance Rose" lat="42.1974248" lng="-122.715877" address="37 North Main Street" city="Ashland" state="OR" postal="97520-2735" country="US" phone="(541) 488-0119" web="www.renrose.com" />
 	<marker name="Renee&apos;s Hallmark" lat="40.5847057" lng="-80.03964309999999" address="Pine Creek Center" city="Pittsburgh" state="PA" postal="15237" country="US" phone="(412) 364-0180" web="www.hallmarkboutique.com" />
 	<marker name="Retro City Fashion" lat="37.769627" lng="-122.447668" address="1543 Haight Street" city="San Francisco" state="CA" postal="94117" country="US" phone="(415) 596-2823" web="" />
 	<marker name="Retro Daddio" lat="37.2817872" lng="-76.7228842" address="218 Monticello Avenue" city="Williamsburg" state="VA" postal="23185" country="US" phone="(702) 755-9954" web="stores.shopretrodaddio.com" />
-	<marker name="Retro Paradise" lat="36.9714439" lng="-122.0252047" address="1010 Pacific Ave Suite C &amp; D" city="Santa Cruz" state="CA" postal="95060" country="US" phone="(831) 460-9960" web="www.retroparadiseclothing.com" />
+	<marker name="Retro Paradise" lat="36.9715003" lng="-122.0249841" address="1010 Pacific Ave Suite C &amp; D" city="Santa Cruz" state="CA" postal="95060" country="US" phone="(831) 460-9960" web="www.retroparadiseclothing.com" />
 	<marker name="Retroactive Kids" lat="47.558391" lng="-122.285594" address="4859 Rainer Avenue South" city="Seattle" state="WA" postal="98118" country="US" phone="(206) 932-3154" web="www.retroactivekids.com" />
 	<marker name="Retro-Fitt Boutique" lat="28.4680567" lng="-81.4535113" address="5253 International Dr, #A" city="Orlando" state="FL" postal="32819" country="US" phone="(754) 234-1150" web="www.retro-fitt.com" />
 	<marker name="Revolutionary Concord" lat="42.460189" lng="-71.3499482" address="32 Main Street" city="Concord" state="MA" postal="01742" country="US" phone="(978) 371-1635" web="www.revolutionaryconcord.com" />
@@ -1277,6 +1276,7 @@
 	<marker name="Two Plates Full" lat="33.5806128" lng="-111.9241104" address="8877 N. Scottsdale Road #404" city="Paradise Valley" state="AZ" postal="85253" country="US" phone="(480) 443-3241" web="www.twoplatesfull.com" />
 	<marker name="Ultimate Party" lat="36.304963" lng="-86.621437" address="246 West Main Street" city="Hendersonville" state="TN" postal="37075" country="US" phone="(615) 431-0020" web="www.hendersonvillepartystore.com" />
 	<marker name="Under A Hula Moon" lat="21.3941697" lng="-157.7409303" address="600 Kailua Road, Suite 116" city="Kailua" state="HI" postal="96734" country="US" phone="(808) 261-4252" web="www.hulamoonhawaii.com" />
+	<marker name="Underground Dungeon" lat="13.5072764" lng="144.8197194" address="1060 Route 16" city="Barrigada" state="GU" postal="96913" country="US" phone="(671) 632-7008" web="shop.hotguam.com/underground-dungeon" />
 	<marker name="Unique Toy Shop" lat="42.8858856" lng="-77.2803359" address="120 South Main Street" city="Canandaigua" state="NY" postal="14424" country="US" phone="(585) 394-2319" web="" />
 	<marker name="Unique Toys" lat="35.1476662" lng="-101.9266269" address="3307 Bell Street" city="Amarillo" state="TX" postal="79119" country="US" phone="(806) 376-0754" web="" />
 	<marker name="Unique Vintage" lat="34.173716" lng="-118.330178" address="2013 West Magnolia Boulevard" city="Burbank" state="CA" postal="91506" country="US" phone="(818) 848-1540" web="www.unique-vintage.com/store.php" />
@@ -1293,7 +1293,6 @@
 	<marker name="US Toy Company" lat="33.04227400000001" lng="-96.75480689999999" address="3115 W Parker Road" city="Plano" state="TX" postal="75023" country="US" phone="(816) 761-5900" web="www.ustoyco.com" />
 	<marker name="US Toy Company" lat="42.0342395" lng="-87.7598878" address="5314 W Lincoln" city="Skokie" state="IL" postal="60077" country="US" phone="" web="www.ustoyco.com" />
 	<marker name="US Toy Company" lat="29.9608649" lng="-95.54284249999999" address="7885 FM 1960 West" city="Houston" state="TX" postal="77070" country="US" phone="" web="www.ustoyco.com" />
-	<marker name="US Toy Company" lat="28.67417099999999" lng="-81.494528" address="805 E Semoran Blvd" city="Apopka" state="FL" postal="32703" country="US" phone="" web="www.ustoyco.com" />
 	<marker name="US Toy Company" lat="39.5692728" lng="-104.9050294" address="8101 S Quebec" city="Centennial" state="CO" postal="80112" country="US" phone="" web="www.ustoyco.com" />
 	<marker name="Value Drugs" lat="40.951426" lng="-73.817026" address="1 Tuckahoe Ave" city="10Eastchester" state="NY" postal="10709" country="US" phone="(914) 771-5640" web="www.valuedrugs.net" />
 	<marker name="Value Drugs" lat="40.866333" lng="-73.363963" address="106 Broadway" city="Greenlawn" state="NY" postal="11740" country="US" phone="(631) 651-8413" web="www.valuedrugs.net" />
@@ -1344,6 +1343,7 @@
 	<marker name="Wolf Bay Lodge" lat="30.3709037" lng="-87.6686997" address="20801 Miflin Rd" city="Foley" state="AL" postal="36535" country="US" phone="" web="www.wolfbaylodge.com" />
 	<marker name="Women &amp; Children First" lat="40.735032" lng="-73.973846" address="5233 N Clark Street" city="Chicago" state="IL" postal="60640" country="US" phone="(773) 769-9299" web="www.womenandchildrenfirst.com" />
 	<marker name="Wonderland" lat="44.01319790000001" lng="-73.1690047" address="58 Main Street" city="Middlebury" state="VT" postal="05753" country="US" phone="(802) 989-8138" web="" />
+	<marker name="Woodbury Mountain Toys" lat="44.2600497" lng="-72.57619009999999" address="24 State Street" city="Montpelier" state="VT" postal="05602" country="US" phone="(802) 223-4272" web="www.woodburymountaintoys.com" />
 	<marker name="Woodlands Market" lat="37.9521994" lng="-122.5499389" address="735 College Avenue" city="Kentfield" state="CA" postal="94904" country="US" phone="(415) 457-8160" web="" />
 	<marker name="Woodworm Party Store" lat="36.9817502" lng="-121.9565514" address="827 Bay Avenue" city="Capitola" state="CA" postal="95010" country="US" phone="(831) 462-0455" web="www.woodwormpartystore.com" />
 	<marker name="Word Jersey City" lat="40.7199056" lng="-74.0433692" address="123 Newark Avenue" city="Jersey City" state="NJ" postal="07302" country="US" phone="(201) 763-6611" web="www.wordbookstores.com" />
@@ -1375,7 +1375,6 @@
 	<marker name="Zurchers Party &amp; Wedding Store" lat="40.543142" lng="-111.890252" address="1624 East. 17th Street" city="Idaho Falls" state="ID" postal="83404" country="US" phone="(208) 523-3100" web="www.zurchers.com" />
 	<marker name="Zurchers Party &amp; Wedding Store" lat="40.543142" lng="-111.890252" address="11479 South State St Unit A" city="Draper" state="UT" postal="84020" country="US" phone="(801) 251-9100" web="www.zurchers.com" />
 	<marker name="Zurchers Party &amp; Wedding Store" lat="40.543142" lng="-111.890252" address="177 North West State Road" city="American Fork" state="UT" postal="84003" country="US" phone="(801) 642-0173" web="www.zurchers.com" />
-	<marker name="Audrey&apos;s Costume Castle" lat="37.09024" lng="-95.712891" address="1460 Cyrville Unit 100" city="Kingston" state="ON" postal="K7M 3Y4" country="CA" phone="(613) 744-7742" web="www.1-800-costume.com" />
 	<marker name="Benjo" lat="46.814338" lng="-71.22236699999999" address="390 CHAREST EST, SUITE 300" city="Quebec City" state="QU" postal="G1K 3H4" country="CA" phone="(418) 692-7470" web="www.benjo.ca" />
 	<marker name="Benjo" lat="46.814338" lng="-71.22236699999999" address="550 CHAREST EST" city="QUEBEC" state="QU" postal="G1K 3J3" country="CA" phone="" web="www.benjo.ca" />
 	<marker name="Boo LaLa" lat="49.3118335" lng="-123.0755725" address="152 E 2nd St 2nd Floor" city="North Vancouver" state="BC" postal="V7L 1C3" country="CA" phone="(604) 986-4880" web="www.boolalacostumes.com" />
@@ -1400,17 +1399,14 @@
 	<marker name="Muskoka Classics" lat="45.1205194" lng="-79.57761099999999" address="99 Maple Street" city="Port Carling" state="ON" postal="P0B 1J0" country="CA" phone="" web="" />
 	<marker name="Party Expert" lat="45.5643559" lng="-73.72934099999999" address="2575 Boul Le Corbusier" city="Laval" state="QC" postal="H7S 2E8" country="CA" phone="(450) 437-2999" web="www.party-expert.com" />
 	<marker name="Party Village" lat="45.2543507" lng="-74.1307642" address="73 Rue Maden" city="Valleyfield" state="QC" postal="J6S 3V4" country="CA" phone="(450) 377-1886" web="www.villagedesbasprix.com" />
-	<marker name="Party Village" lat="37.09024" lng="-95.712891" address="1066 Voie de desserte" city="Laval" state="QC" postal="J6S 3V4" country="CA" phone="" web="www.villagedesbasprix.com" />
 	<marker name="Patties Party Palace" lat="49.214187" lng="-124.0274698" address="#9-4890 Rutherford Road" city="Nanaimo" state="BC" postal="V9T 4Z4" country="CA" phone="(250) 751-3379" web="www.pattiespartypalace.ca" />
 	<marker name="Ragtime Vintage Clothing" lat="45.4107143" lng="-75.69338669999999" address="43 Flora Street" city="Ottawa" state="ON" postal="K2P 1A7" country="CA" phone="(613) 233-6940" web="www.ragtimevintageclothes.com" />
 	<marker name="Riley &amp; McCormick" lat="51.045775" lng="-114.0752488" address="220 8th Avenue S. W." city="Calgary" state="AB" postal="T2P 1B5" country="CA" phone="(403) 228-4024" web="www.realcowboys.com" />
-	<marker name="Ripsters Halloween Shop" lat="37.09024" lng="-95.712891" address="514 Westwood Boulevard" city="Upper Tantallon" state="NS" postal="B3Z 4K4" country="CA" phone="(902) 221-1795" web="www.ripstershalloweenshop.ca" />
 	<marker name="Ripsters Halloween Shop" lat="44.7683395" lng="-63.68763389999999" address="622 Sackville Drive" city="Lower Sackville" state="NS" postal="B4C 2S3" country="CA" phone="(902) 252-7477" web="www.ripstershalloweenshop.ca" />
 	<marker name="Robertas Hats" lat="48.4271792" lng="-123.3674864" address="1318 Government Street" city="Victoria" state="BC" postal="V8S 3M1" country="CA" phone="(250) 384-2778" web="www.robertashats.com" />
 	<marker name="Safari Pet Center" lat="45.440311" lng="-73.43621470000001" address="9750 Boulevard Leduc Suite 10" city="Brossard" state="QC" postal="J4Y 0B3" country="CA" phone="(450) 676-6845" web="www.safaripetcenter.com" />
 	<marker name="Salmagundi West" lat="49.2839061" lng="-123.1096756" address="321 West Cordova St" city="Vancouver" state="BC" postal="V6B 1E5" country="CA" phone="(604) 681-4648" web="" />
 	<marker name="Sanctuary Curio Shoppe" lat="53.517442" lng="-113.49504" address="8118 Gateway Blvd" city="Edmonton" state="AB" postal="T6E 4B1" country="CA" phone="(780) 944-2654" web="www.sanctuarycurios.com" />
-	<marker name="Schmittz N Gigglez" lat="37.09024" lng="-95.712891" address="300 Ridge Road N" city="Ridgeway" state="ON" postal="L0S 1N0" country="CA" phone="(905) 894-1905" web="" />
 	<marker name="Soul of Halloween" lat="53.5601217" lng="-113.6142201" address="16940 111 Avenue" city="Edmonton Alberta" state="AB" postal="T5M 4C9" country="CA" phone="(780) 441-5361" web="www.soulofhalloween.ca" />
 	<marker name="The Costume Shoppe" lat="51.01559" lng="-114.049458" address="4307 Blackfoot Trail SE" city="Calgary" state="AB" postal="T2G 5T4" country="CA" phone="(403) 571-2466" web="www.thecostumeshoppe.com" />
 	<marker name="The Last Temptation" lat="51.1782725" lng="-115.5727206" address="229 Bear Street" city="Banff" state="AB" postal="T1L 1G8" country="CA" phone="(403) 763-7747" web="www.banffthrift.com" />
@@ -1418,7 +1414,6 @@
 	<marker name="The Store Upstairs" lat="51.2912626" lng="-114.0155667" address="6711 McCleod Trail SW" city="Calgary" state="AB" postal="T2H 2T3" country="CA" phone="(403) 948-0010" web="www.thestoreupstairs.com" />
 	<marker name="Toad Hall Toys" lat="49.8966783" lng="-97.14170109999999" address="54 Arthur Street" city="Winnipeg" state="MB" postal="R3B 1G7" country="CA" phone="(204) 956-2195" web="www.toadhalltoys.com" />
 	<marker name="Toy and Party Depot" lat="44.3290461" lng="-79.68709659999999" address="21 Commerce Park Drive" city="Barrie" state="ON" postal="L4N 8X1" country="CA" phone="(705) 734-2108" web="www.toyandparty.ca" />
-	<marker name="Unique Ireland" lat="37.09024" lng="-95.712891" address="One Forks Market Road" city="Winnipeg" state="MB" postal="R3C 4L9" country="CA" phone="(204) 479-3154" web="" />
 	<marker name="Vezina Party Centre" lat="45.590697" lng="-73.5821005" address="6181 Boul Metropolitain E" city="St. Leonard" state="QC" postal="H1P 1X7" country="CA" phone="(514) 321-5555" web="www.vezinapartycentre.com" />
 	<marker name="Wicked Stuff" lat="48.4741616" lng="-81.38328489999999" address="1500 Riverside Drive" city="Timmons" state="ON" postal="P4R 1A1" country="CA" phone="(705) 268-2660" web="www.wickedstuffonline.com" />
 	<marker name="Zeezo&apos;s" lat="38.835902" lng="-104.8236111" address="112 N Tejon St, Colorado Springs, CO 80903" city="Colorado Springs" state="CO" postal="80903" phone="(719) 633-2571" web="www.zeezos.com" />
