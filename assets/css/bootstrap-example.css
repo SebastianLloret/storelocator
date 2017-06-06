@@ -98,7 +98,7 @@
   float: left;
   margin: 3% 4%;
   cursor: pointer;
-  width: 92%;
+  width: 100%;
   border: 1px solid #ffffff;
   /* Adding this to prevent moving li elements when adding the list-focus class*/
 }
