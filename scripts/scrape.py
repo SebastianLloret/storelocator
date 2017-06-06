@@ -58,14 +58,14 @@ def process(sheet):
         phonelst.append(sheet.cell(row, phoneCol).value)
 
         # Format our urls correctly for HTML to HREF them properly
-        if('https' or 'http' in sheet.cell(row, webCol).value):
+        if('https' in sheet.cell(row, webCol).value) or ('http' in sheet.cell(row, webCol).value):
             urlToAppend = sheet.cell(row, webCol).value
 
-        elif('www' in sheet.cell(row, webCol).value):
-            urlToAppend = 'http://' + sheet.cell(row, webCol).value
+        elif('' == sheet.cell(row, webCol).value):
+            urlToAppend = ''
 
         else:
-            urlToAppend = 'http://www.' + sheet.cell(row, webCol).value
+            urlToAppend = 'http://' + sheet.cell(row, webCol).value
 
         weblst.append(urlToAppend)
 
