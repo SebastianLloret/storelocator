@@ -48,6 +48,7 @@ def process(sheet):
         # This keeps us from overloading the Google Maps API
         time.sleep(.1)
 
+        # Update our lists for writeOut()
         namelst.append(sheet.cell(row, nameCol).value)
         addresslst.append(sheet.cell(row, addressCol).value)
         citylst.append(sheet.cell(row, cityCol).value)
@@ -55,58 +56,65 @@ def process(sheet):
         postallst.append(sheet.cell(row, postalCol).value)
         countrylst.append(sheet.cell(row, countryCol).value)
         phonelst.append(sheet.cell(row, phoneCol).value)
-        weblst.append(sheet.cell(row, webCol).value)
 
-        # Google considers Guam its own country, so this fixes that
+        # Format our urls correctly for HTML to HREF them properly
+        if('https' or 'http' in sheet.cell(row, webCol).value):
+            urlToAppend = sheet.cell(row, webCol).value
+
+        elif('www' in sheet.cell(row, webCol).value):
+            urlToAppend = 'http://' + sheet.cell(row, webCol).value
+
+        else:
+            urlToAppend = 'http://www.' + sheet.cell(row, webCol).value
+
+        weblst.append(urlToAppend)
+
+        # Google considers Guam its own country, so this fixes that case for region-biasing
         if(sheet.cell(row, stateCol).value == 'GU'):
             region = 'GU'
 
         else:
             region = sheet.cell(row, countryCol).value
 
-        response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?key=' + key + '&components=country:' + region + '&address=' + sheet.cell(row, queryCol).value)
+        scrape(sheet.cell(row, queryCol).value, region, key, False, sheet, row)
 
-        # Grab the JSON response
-        data = response.json()
+def scrape(query, region, key, hasRecursed, sheet, row):
+    # This is the Google Maps API Query URL format
+    response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?key=' + key + '&components=country:' + region + '&address=' + query)
 
-        # If the API has no error
-        if(data['status'] == 'OK'):
-            # Region biasing seems to remove the ZERO_RESULTS error and just give the lat/long coords for the center of the United States.
-            if(data['results'][0]['formatted_address'] == 'United States' or data['results'][0]['formatted_address'] == 'Canada'):
-                # If we get the equivalent of a ZERO_RESULTS, re-run without the store name
-                address = sheet.cell(row, addressCol).value + ' ' + sheet.cell(row, cityCol).value + ' ' +  sheet.cell(row, stateCol).value
+    # Grab the JSON response
+    data = response.json()
 
-                response = requests.get('https://maps.googleapis.com/maps/api/geocode/json?key=' + key + '&components=country:US&address=' + address )
+    # If the API has no error
+    if(data['status'] == 'OK'):
+        # Region biasing seems to remove the ZERO_RESULTS error and just give the lat/long coords for the center of the United States or Canada. This catches that.
+        if(data['results'][0]['formatted_address'] == 'United States' or data['results'][0]['formatted_address'] == 'Canada'):
+            # If we haven't already recursed, re-run the query without the store name as that fixes ZERO_RESULTS in many cases
+            if(not hasRecursed):
+                query = sheet.cell(row, addressCol).value + ' ' + sheet.cell(row, cityCol).value + ' ' +  sheet.cell(row, stateCol).value
 
-                data = response.json()
+                scrape(query, region, key, True, sheet, row)
 
-                if(data['status'] == 'OK'):
-                    # If removing the store name still didn't fix it, just give an error.
-                    if(data['results'][0]['formatted_address'] == 'United States' or data['results'][0]['formatted_address'] == 'Canada'):
-                        print('Zero results for: ' + sheet.cell(row, queryCol).value + '\n')
-                        latlst.append(0)
-                        lnglst.append(0)
-
-                    else:
-                        latlst.append(data['results'][0]['geometry']['location']['lat'])
-                        lnglst.append(data['results'][0]['geometry']['location']['lng'])
-
-                # Catches all errors other than NO_RESULTS
-                else:
-                    print(data['status'] + ' error for: ' + sheet.cell(row, queryCol).value + '\n')
-                    latlst.append(0)
-                    lnglst.append(0)
-
-            # If we find a result
+            # If removing the store name still didn't fix it, just give an error
             else:
-                latlst.append(data['results'][0]['geometry']['location']['lat'])
-                lnglst.append(data['results'][0]['geometry']['location']['lng'])
+                print('Zero results for: ' + sheet.cell(row, queryCol).value + '\n')
+                latlst.append(0)
+                lnglst.append(0)
 
-        # If there's some error let us know
+        # If we get a result
         else:
-            print(data['status'] + ' error for: ' + sheet.cell(row, queryCol).value + '\n')
-            latlst.append(0)
-            lnglst.append(0)
+            latlst.append(data['results'][0]['geometry']['location']['lat'])
+            lnglst.append(data['results'][0]['geometry']['location']['lng'])
+
+    # If we get an overloaded API error just redo it
+    elif(data['status'] == 'UNKNOWN_ERROR'):
+        scrape(query, region, key, False, sheet, row)
+
+    # If there's some other error like REQUEST_DENIED
+    else:
+        print(data['status'] + ' error for: ' + sheet.cell(row, queryCol).value + '\n')
+        latlst.append(0)
+        lnglst.append(0)
 
 def writeOut():
     with open('../data/locations.xml', 'w') as f:
