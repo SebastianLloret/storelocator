@@ -30,14 +30,10 @@ queryCol = 16
 
 # Reads our file
 def readIn():
-    #If the locations excel document exists one folder up in data
-    if (os.path.exists('../data/locations.xlsx')):
-        excel = xlrd.open_workbook('../data/locations.xlsx', on_demand = True)
-        sheet = excel.sheet_by_index(0)
-        process(sheet)
-
-    else:
-        print('File not found! Is locations.xlsx in the data folder?')
+    # On demand helps keep memory requirements low by only processing parts of the sheet ad hoc
+    excel = xlrd.open_workbook('../data/locations.xlsx', on_demand = True)
+    sheet = excel.sheet_by_index(0)
+    process(sheet)
 
 # Scrapes for lat/long coordinates
 def process(sheet):
@@ -77,6 +73,7 @@ def process(sheet):
         else:
             region = sheet.cell(row, countryCol).value
 
+        # Grab the lat/long coordinats
         scrape(sheet.cell(row, queryCol).value, region, key, False, sheet, row)
 
 def scrape(query, region, key, hasRecursed, sheet, row):
@@ -95,6 +92,8 @@ def scrape(query, region, key, hasRecursed, sheet, row):
                 query = sheet.cell(row, addressCol).value + ' ' + sheet.cell(row, cityCol).value + ' ' +  sheet.cell(row, stateCol).value
 
                 scrape(query, region, key, True, sheet, row)
+
+                # If the name of the store and the address didn't return anything, the store is possibly closed
                 possClosed.append(sheet.cell(row, queryCol).value)
 
             # If removing the store name still didn't fix it, just give an error
@@ -118,6 +117,7 @@ def scrape(query, region, key, hasRecursed, sheet, row):
         latlst.append(0)
         lnglst.append(0)
 
+# Combines the lists in to proper XML markup
 def toXML(name, lat, lng, address, city, state, postal, country, phone, web):
     XML = '	' + '<marker name=\"' + name + '\"' + ' lat=\"' + str(lat) + '\"' + ' lng=\"' + str(lng) + '\"' + ' address=\"' + address + '\"' + ' city=\"' + city + '\"' + ' state=\"' + state + '\"' + ' postal=\"' + str(postal) + '\"' + ' country=\"' + country + '\"' + ' phone=\"' + str(phone) + '\"' + ' web=\"' + web + '\"' + ' />\n'
 
@@ -126,6 +126,7 @@ def toXML(name, lat, lng, address, city, state, postal, country, phone, web):
 
     return XML
 
+# Writes out the finished files
 def writeOut():
     with open('../data/locations.xml', 'w') as f:
         f.write('<?xml version="1.0" encoding="utf-8"?>\n<markers>\n')
@@ -136,6 +137,7 @@ def writeOut():
 
         f.write('</markers>')
 
+    # If we found any stores that are possibly closed, log them
     if possClosed:
         with open('../data/possiblyclosed.txt', 'w') as p:
             for location in possClosed:
