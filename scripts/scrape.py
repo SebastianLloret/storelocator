@@ -116,18 +116,21 @@ def scrape(query, region, key, hasRecursed, sheet, row):
         latlst.append(0)
         lnglst.append(0)
 
+def toXML(name, lat, lng, address, city, state, postal, country, phone, web):
+    XML = '	' + '<marker name=\"' + name + '\"' + ' lat=\"' + str(lat) + '\"' + ' lng=\"' + str(lng) + '\"' + ' address=\"' + address + '\"' + ' city=\"' + city + '\"' + ' state=\"' + state + '\"' + ' postal=\"' + str(postal) + '\"' + ' country=\"' + country + '\"' + ' phone=\"' + str(phone) + '\"' + ' web=\"' + web + '\"' + ' />\n'
+
+    XML = XML.replace('&', '&amp;')
+    XML = XML.replace('\'', '&apos;')
+
+    return XML
+
 def writeOut():
     with open('../data/locations.xml', 'w') as f:
         f.write('<?xml version="1.0" encoding="utf-8"?>\n<markers>\n')
 
         for i in range(0, len(namelst)):
             if(latlst[i] != 0 and lnglst[i] != 0):
-                toWrite = '	' + '<marker name=\"' + namelst[i] + '\"' + ' lat=\"' + str(latlst[i]) + '\"' + ' lng=\"' + str(lnglst[i]) + '\"' + ' address=\"' + addresslst[i] + '\"' + ' city=\"' + citylst[i] + '\"' + ' state=\"' + statelst[i] + '\"' + ' postal=\"' + str(postallst[i]) + '\"' + ' country=\"' + countrylst[i] + '\"' + ' phone=\"' + str(phonelst[i]) + '\"' + ' web=\"' + weblst[i] + '\"' + ' />\n'
-
-                toWrite = toWrite.replace('&', '&amp;')
-                toWrite = toWrite.replace('\'', '&apos;')
-
-                f.write(toWrite)
+                f.write(toXML(namelst[i], latlst[i], lnglst[i], addresslst[i], citylst[i], statelst[i], postallst[i], countrylst[i], phonelst[i], weblst[i]))
 
         f.write('</markers>')
 
