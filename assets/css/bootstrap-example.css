@@ -1,3 +1,21 @@
+/* Color changes for elope */
+.btn-primary {
+  color: #EEEEEE;
+  background-color: #922C8B;
+  border-color: #922C8B;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  color: #922C8B;
+  background-color: #EEEEEE;
+  border-color: #922C8B;
+  -webkit-transition: background-color .5s;
+  -moz-transition:    background-color .5s;
+  -ms-transition:     background-color .5s;
+  -o-transition:      background-color .5s;
+  transition:         background-color .5s;
+}
+
 /* Infowindow Roboto font override */
 .gm-style div,
 .gm-style span,
@@ -108,11 +126,8 @@
   padding-top: 6px;
   width: 30px;
   height: 30px;
-  text-align: center;
-  background: #00192d;
-  color: #ffffff;
-  font-weight: bold;
-  border-radius: 100%;
+  background-image: url("https://www.elope.com/media/favicon/default/favicon.png");
+  background-size: cover;
 }
 .bh-sl-container .bh-sl-loc-list .list-details {
   float: left;
