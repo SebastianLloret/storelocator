@@ -15,6 +15,7 @@ postallst = []
 countrylst = []
 phonelst = []
 weblst = []
+possClosed = []
 
 # Columns
 nameCol = 1
@@ -94,6 +95,7 @@ def scrape(query, region, key, hasRecursed, sheet, row):
                 query = sheet.cell(row, addressCol).value + ' ' + sheet.cell(row, cityCol).value + ' ' +  sheet.cell(row, stateCol).value
 
                 scrape(query, region, key, True, sheet, row)
+                possClosed.append(sheet.cell(row, queryCol).value)
 
             # If removing the store name still didn't fix it, just give an error
             else:
@@ -133,6 +135,11 @@ def writeOut():
                 f.write(toXML(namelst[i], latlst[i], lnglst[i], addresslst[i], citylst[i], statelst[i], postallst[i], countrylst[i], phonelst[i], weblst[i]))
 
         f.write('</markers>')
+
+    if possClosed:
+        with open('../data/possiblyclosed.txt', 'w') as p:
+            for location in possClosed:
+                p.write(location + '\n')
 
 if __name__ == '__main__':
     readIn()
